@@ -1,3 +1,7 @@
+"
+"vim by Y_Takabatake
+"
+
 " setting
 " set encode
 set fenc=utf-8
