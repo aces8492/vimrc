@@ -5,7 +5,8 @@ vimrc by Y_Takabatake
 
 #Nov.1,2017 -add dein.vim
 Win10,cygwin64環境でのdein導入時
-curlコマンドでgitより落としてきたディレクトリより、
+
+curlコマンドでgitからダウンロードしてきたディレクトリより、
 bin/installer.shを実行したが、指定したディレクトリにdein.vimが展開されなかった。
 そのため、vim起動時にdeinというコマンドが見つからない旨のエラーが発生。
 curlで落としてきたディレクトリを直接配置することで解決。
