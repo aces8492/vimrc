@@ -12,7 +12,7 @@ set hidden
 " show the command when inputting
 set showcmd
 
-" arrangement
+" visual arrangement
 " title
 set title
 " show line num
@@ -55,6 +55,8 @@ syntax on
 "input
 " beginning of current line to end of before line (and this reverse)
 set whichwrap=b,s,h,l,<,>,[,]
+"tab width
+:set tabstop=4
 
 "dein
 "dein Scripts-----------------------------
