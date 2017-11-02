@@ -11,3 +11,6 @@ bin/installer.shを実行したが、指定したディレクトリにdein.vim�
 そのため、vim起動時にdeinというコマンドが見つからない旨のエラーが発生。
 curlで落としてきたディレクトリを直接配置することで解決。
 
+
+#Nov.3,2017 -add plugin
+neocomplete.vim, dein.vim
