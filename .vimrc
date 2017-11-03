@@ -77,9 +77,10 @@ call dein#add('Shougo/dein.vim')
 " Add or remove your plugins here:
 call dein#add('Shougo/neosnippet.vim')
 call dein#add('Shougo/neosnippet-snippets')
-call dein#add('Shougo/neocomplete.vim')
 call dein#add('Shougo/unite.vim')
- 
+call dein#add('Shougo/neocomplete.vim')
+
+
 " You can specify revision/branch/tag.
 call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
  
@@ -95,4 +96,14 @@ filetype plugin indent on
 "endif
  
 "End dein Scripts-------------------------
+"
+"neocomplete
+" Disable AutoComplPop.
+let g:acp_enableAtStartup = 0
+" Use neocomplete.
+let g:neocomplete#enable_at_startup = 1
+" Use smartcase.
+let g:neocomplete#enable_smart_case = 1
+" Set minimum syntax keyword length.
+let g:neocomplete#sources#syntax#min_keyword_length = 3
 
