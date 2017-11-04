@@ -13,4 +13,7 @@ curlで落としてきたディレクトリを直接配置することで解決�
 
 
 #Nov.3,2017 -add plugin
-neocomplete.vim, dein.vim
+Shougo/neocomplete.vim, Shougo/dein.vim
+
+#Nov.5,2017 -add plugin
+yonchu/accelerated-smooth-scroll
