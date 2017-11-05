@@ -17,3 +17,6 @@ Shougo/neocomplete.vim, Shougo/dein.vim
 
 #Nov.5,2017 -add plugin
 yonchu/accelerated-smooth-scroll
+
+#Nov.6,2017 -add key-mapping
+add key-mapping related to tab controll

@@ -33,8 +33,6 @@ set smartindent
 " auto complete command line
 set wildmode=list:longest
 "can move return line
-nnoremap j gj
-nnoremap k gk
 
 "search
 "ignore {Upper Lower} case (if only Lower)
@@ -57,6 +55,13 @@ syntax on
 set whichwrap=b,s,h,l,<,>,[,]
 "tab width
 :set tabstop=4
+"<C-o> -> o<ESC> : insert space line
+noremap <C-o> o<ESC>
+nnoremap nT :tabnew<CR>
+nnoremap nt gt
+nnoremap pt gT
+nnoremap j gj
+nnoremap k gk
 
 "dein
 "dein Scripts-----------------------------
@@ -79,6 +84,7 @@ call dein#add('Shougo/neosnippet.vim')
 call dein#add('Shougo/neosnippet-snippets')
 call dein#add('Shougo/unite.vim')
 call dein#add('Shougo/neocomplete.vim')
+"call dein#add('Shougo/neocomplcache.vim')
 call dein#add('yonchu/accelerated-smooth-scroll')
 
 " You can specify revision/branch/tag.
@@ -106,4 +112,3 @@ let g:neocomplete#enable_at_startup = 1
 let g:neocomplete#enable_smart_case = 1
 " Set minimum syntax keyword length.
 let g:neocomplete#sources#syntax#min_keyword_length = 3
-
