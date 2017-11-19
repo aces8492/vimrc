@@ -86,6 +86,8 @@ call dein#add('Shougo/unite.vim')
 call dein#add('Shougo/neocomplete.vim')
 "call dein#add('Shougo/neocomplcache.vim')
 call dein#add('yonchu/accelerated-smooth-scroll')
+"call dein#add('nathanaelkane/vim-indent-guides')
+call dein#add('scrooloose/nerdcommenter')
 
 " You can specify revision/branch/tag.
 call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
@@ -112,3 +114,7 @@ let g:neocomplete#enable_at_startup = 1
 let g:neocomplete#enable_smart_case = 1
 " Set minimum syntax keyword length.
 let g:neocomplete#sources#syntax#min_keyword_length = 3
+
+" Auto on indent-guides
+" let g:indent_guides_enable_on_vim_startup = 1
+

@@ -20,3 +20,6 @@ yonchu/accelerated-smooth-scroll
 
 #Nov.6,2017 -add key-mapping
 add key-mapping related to tab controll
+
+#Nov.19,2017 -add plugin
+scrooloose/nerdcommenter
