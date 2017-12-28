@@ -55,6 +55,9 @@ syntax on
 set whichwrap=b,s,h,l,<,>,[,]
 "tab width
 :set tabstop=4
+"tab width in auto indent
+:set softtabstop=4
+:set shiftwidth=4
 "<C-o> -> o<ESC> : insert space line
 noremap <C-o> o<ESC>
 nnoremap nT :tabnew<CR>
@@ -88,6 +91,8 @@ call dein#add('Shougo/neocomplete.vim')
 call dein#add('yonchu/accelerated-smooth-scroll')
 "call dein#add('nathanaelkane/vim-indent-guides')
 call dein#add('scrooloose/nerdcommenter')
+"call dein#add('aces8492/helloworld-vim')
+call dein#add('aces8492/hello-beautiful-world')
 
 " You can specify revision/branch/tag.
 call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
